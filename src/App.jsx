@@ -12,7 +12,6 @@ function App() {
   return (
     <div className="App relative z-20 pt-20">
       <Navbar />
-
       <div className="pages">
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -21,7 +20,6 @@ function App() {
           <Route path="*" element={<h1>404 Page</h1>} />
         </Routes>
       </div>
-
     </div>
   );
 }
